@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: hello ;
+    src: url('./assets/CHEESEBU.TTF');
+}
+@font-face {
+    font-family: hi ;
+    src: url('./assets/3rd\ Man.otf');
+}
+*{
+    font-family: hello;
+}
+.game1 h1{
+    font-family: hi;
+}
